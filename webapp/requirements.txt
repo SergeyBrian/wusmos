@@ -4,4 +4,5 @@ Jinja2
 Werkzeug
 numpy
 pandas
+scikit-learn
 
