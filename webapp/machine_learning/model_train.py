@@ -2,13 +2,18 @@ import pandas
 import numpy as np
 import pickle
 
+
 DIR = ''
 if __name__ != '__main__':
     DIR = 'machine_learning/'
 
+
 def new_model():
     train = pandas.read_csv(DIR + 'twitter_data_public.csv')
-    # test = train.turncate(after=50000)
+    train = train.drop("Unnamed: 0", axis=1)
+    test = train.truncate(before=50000)
+    print(test)
+
     return 'ok'
 
 
