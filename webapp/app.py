@@ -1,7 +1,7 @@
 import os
 
 from flask import Flask, render_template
-import machine_learning.model_train as mt
+import machine_learning.machine_learning as mt
 
 app = Flask(__name__)
 
@@ -13,7 +13,8 @@ def hello():
 
 @app.route('/machinelearning')
 def ml():
-    return mt.start_learning()
+
+    return 'ok'
 
 
 if __name__ == '__main__':
