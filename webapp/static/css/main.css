@@ -1,0 +1,24 @@
+body {
+	padding: 0;
+	margin: 0;
+}
+
+* {
+	font-family: 'Montserrat', sans-serif;
+}
+
+#mainChart {
+	max-width: 45vw;
+}
+
+.main-search {
+	width: 100vw;
+}
+
+canvas {
+    padding: 0;
+    margin: auto;
+    display: block;
+    width: 50%;
+	height: 50%;
+}
